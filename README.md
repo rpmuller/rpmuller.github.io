@@ -1,7 +1,7 @@
 Github Projects
 ===============
 * [PyQuante](http://pyquante.sf.net)/[PyQuante2](https://github.com/rpmuller/pyquante2)
-* Sympy for Quantum Circuits
+* [Sympy for Quantum Circuits](https://github.com/rpmuller/sympy/tree/sympy_qcircuit/sympy/physics/quantum)
 * Python bindings for Libxc
 * Python bindings for Libint
 * Python2.7 bindings for Libquantum
