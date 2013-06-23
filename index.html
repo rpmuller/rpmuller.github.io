@@ -4,25 +4,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Rick's Github Hackage by rpmuller</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/rpmuller">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1>Rick's Github Hackage</h1>
-        <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
 
-
-        <p class="view"><a href="https://github.com/rpmuller">View My GitHub Profile</a></p>
-
-      </header>
       <section>
+        <div id="title">
+          <h1>Rick's Github Hackage</h1>
+          <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/rpmuller">rpmuller</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
         <h1>
 <a name="ricks-github-projects" class="anchor" href="#ricks-github-projects"><span class="octicon octicon-link"></span></a>Rick's Github Projects</h1>
 
@@ -38,7 +50,7 @@
 <li>Python bindings for Libint</li>
 <li>Python2.7 bindings for Libquantum</li>
 </ul><h2>
-<a name="ipython-notebooks" class="anchor" href="#ipython-notebooks"><span class="octicon octicon-link"></span></a>IPython Notebooks</h2>
+<a name="my-ipython-notebooks" class="anchor" href="#my-ipython-notebooks"><span class="octicon octicon-link"></span></a>My IPython Notebooks</h2>
 
 <ul>
 <li>Crash Course in Python for Scientists: Coming Soon!</li>
@@ -49,13 +61,17 @@
 <a name="progress" class="anchor" href="#progress"><span class="octicon octicon-link"></span></a>Progress</h2>
 
 <ul>
-<li>23 Jun 2013
+<li>
+<p>23 Jun 2013</p>
 
 <ul>
-<li>When MacPorts won't download files for you, you can manually download them and stick them in [Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often?</li>
+<li>When MacPorts won't download files for you, you can manually download them and stick them in [Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often? EDIT: proxy problems, of course.</li>
+<li>Sticking this here since I forget it so often. To change the default (python or whatever) version in macports, do</li>
 </ul>
+<p>port select --list python</p>
 </li>
-<li>22 Jun 2013
+<li>
+<p>22 Jun 2013</p>
 
 <ul>
 <li>Fixed pyquante2 orbital symmetry bug, which wasn't a bug but arose from my missing a transpose.</li>
@@ -63,13 +79,17 @@
 <li>Got proper X, CNOT, and CPHASE gates to work in Sympy</li>
 </ul>
 </li>
+</ul><h2>
+<a name="links" class="anchor" href="#links"><span class="octicon octicon-link"></span></a>Links</h2>
+
+<ul>
+<li>
+<a href="http://www.cs.sandia.gov/%7Ermuller">My Sandia Homepage</a>.</li>
 </ul>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
