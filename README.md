@@ -19,7 +19,7 @@ IPython Notebooks
 Progress
 ---------
 * 23 Jun 2013
-  - When MacPorts won't download files for you, you can manually download them and stick them in [Macports root]/var/macports/distfiles.
+  - When MacPorts won't download files for you, you can manually download them and stick them in [Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often?
 * 22 Jun 2013
   - Fixed pyquante2 orbital symmetry bug, which wasn't a bug but arose from my missing a transpose.
   - Prettified the pyquante2 plotting routines, and added to IPython notebook.
