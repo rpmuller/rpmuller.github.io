@@ -15,9 +15,16 @@ IPython Notebooks
 
 Progress
 ========
+* 24 Jun 2013
+  - Profiling of unit tests in PyQuante2: Weird results. Looks as if the python versions of the integral routines
+    are being called when running tests through nose, but the cython version are called when running from the
+    command line.
 * 23 Jun 2013
-  - libquantum wrappers: Extending python with C is very frustrating. Can't seem to get anything but segfaults! Cython makes things much nicer, but I'm having trouble getting it to recognize _Complex
-  - When MacPorts won't download files for you, you can manually download them and stick them in [Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often? EDIT: proxy problems, of course.
+  - libquantum wrappers: Extending python with C is very frustrating. Can't seem to get anything but segfaults! 
+    Cython makes things much nicer, but I'm having trouble getting it to recognize _Complex
+  - When MacPorts won't download files for you, you can manually download them and stick them in 
+    [Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often? 
+    EDIT: proxy problems, of course.
   - Sticking this here since I forget it so often. To change the default (python or whatever) version in macports, do
 
     port select --list python
