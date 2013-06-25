@@ -19,8 +19,9 @@ Progress
   - Profiling of unit tests in PyQuante2: Weird results. Looks as if the python versions of the integral routines
     are being called when running tests through nose, but the cython version are called when running from the
     command line.
-  - Spent a little bit of time doing some more with the sympy circuit plotter. Updated the notebook, but
-    haven't uploaded it yet. Can now do arbitrarily labelled 1Q gates, as well as controlled versions of this.
+  - Spent a little bit of time doing some more with the sympy circuit plotter. Updated the notebook. 
+    Can now do arbitrarily labelled 1Q gates, as well as controlled versions of these. Block multi-Q
+    gates don't work, nor do gates with matrices as their labels.
 * 23 Jun 2013
   - libquantum wrappers: Extending python with C is very frustrating. Can't seem to get anything but segfaults! 
     Cython makes things much nicer, but I'm having trouble getting it to recognize _Complex
