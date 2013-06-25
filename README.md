@@ -15,6 +15,9 @@ IPython Notebooks
 
 Progress
 ========
+* 25 Jun 2013
+  - Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).
+
 * 24 Jun 2013
   - Profiling of unit tests in PyQuante2: Weird results. Looks as if the python versions of the integral routines
     are being called when running tests through nose, but the cython version are called when running from the
