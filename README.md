@@ -17,6 +17,10 @@ Progress
 ========
 * 25 Jun 2013
   - Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).
+    Can also use with -exec rm {} \;
+  - Had trouble getting the nosetests to run quickly in pyquante2. Worked around this by doing a 
+    setup.py build_ext --inplace to get the cython libraries in the appropriate places, after which
+    the nosetest went from taking 74 sec to run to taking < 2 sec!
 
 * 24 Jun 2013
   - Profiling of unit tests in PyQuante2: Weird results. Looks as if the python versions of the integral routines
