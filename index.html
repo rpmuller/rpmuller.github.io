@@ -4,37 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Rick's Github Hackage by rpmuller</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/rpmuller">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
+      <header>
+        <h1>Rick's Github Hackage</h1>
+        <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
 
+
+        <p class="view"><a href="https://github.com/rpmuller">View My GitHub Profile</a></p>
+
+      </header>
       <section>
-        <div id="title">
-          <h1>Rick's Github Hackage</h1>
-          <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/rpmuller">rpmuller</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
         <h1>
 <a name="github-projects" class="anchor" href="#github-projects"><span class="octicon octicon-link"></span></a>Github Projects</h1>
 
@@ -62,7 +50,12 @@
 <p>25 Jun 2013</p>
 
 <ul>
-<li>Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).</li>
+<li>Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).
+Can also use with -exec rm {} \;</li>
+<li>Had trouble getting the nosetests to run quickly in pyquante2. Worked around this by doing a 
+setup.py build_ext --inplace to get the cython libraries in the appropriate places, after which
+the nosetest went from taking 74 sec to run to taking &lt; 2 sec!</li>
+<li>Also moved test_cython into the tests directory, since now nose can run these tests.</li>
 </ul>
 </li>
 <li>
@@ -107,9 +100,11 @@ EDIT: proxy problems, of course.</li>
 <a href="http://www.cs.sandia.gov/%7Ermuller">My Sandia Homepage</a>.</li>
 </ul>
       </section>
-
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
