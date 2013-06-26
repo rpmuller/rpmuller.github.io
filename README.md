@@ -15,6 +15,9 @@ IPython Notebooks
 
 Progress
 ========
+* 26 Jun 2013
+  - Added RuntimeErrors to PyQuante2 iterators when maxiters reached. Am not doing anything to catch
+    these at this point, but could do so later on.
 * 25 Jun 2013
   - Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).
     Can also use with -exec rm {} \;
