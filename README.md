@@ -15,6 +15,10 @@ IPython Notebooks
 
 Progress
 ========
+* 27 Jun 2013
+  - Killed the stuff I did with RuntimeErrors in the iterators, and wrote a non-generator-based
+    SCFIterator that properly exits, and can keep track of whether or not it is converged. Haven't
+    wired this in to much of the code yet.     
 * 26 Jun 2013
   - Added RuntimeErrors to PyQuante2 iterators when maxiters reached. Am not doing anything to catch
     these at this point, but could do so later on.
