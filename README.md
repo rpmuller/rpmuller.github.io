@@ -15,6 +15,8 @@ IPython Notebooks
 
 Progress
 ========
+* 28 Jun 2013
+  - Removed old iterators: no more simple, usimple, averaging
 * 27 Jun 2013
   - Killed the stuff I did with RuntimeErrors in the iterators, and wrote a non-generator-based
     SCFIterator that properly exits, and can keep track of whether or not it is converged. Haven't
