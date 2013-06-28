@@ -1,5 +1,5 @@
-Github Projects
-===============
+Projects
+========
 * [PyQuante](http://pyquante.sf.net)/[PyQuante2](https://github.com/rpmuller/pyquante2)
 * [Sympy for Quantum Circuits](https://github.com/rpmuller/sympy/tree/sympy_qcircuit/sympy/physics/quantum)
 * Python bindings for Libxc
@@ -58,4 +58,5 @@ Progress
 Links
 =====
 * [My Sandia Homepage](http://www.cs.sandia.gov/~rmuller).
+* [Citations on Google Scholar](http://scholar.google.com/citations?user=ihGf4wgAAAAJ&hl=en).
 
