@@ -15,6 +15,9 @@ IPython Notebooks
 
 Progress
 ========
+* 29 Jun 2013
+  - Updated [Sympy Circuit Notebook](http://nbviewer.ipython.org/5843312) and got a few more examples to work.
+  - Reviewed priorities.
 * 28 Jun 2013
   - Removed old iterators: no more simple, usimple, averaging
 * 27 Jun 2013
