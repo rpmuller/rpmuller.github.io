@@ -15,6 +15,10 @@ IPython Notebooks
 
 Progress
 ========
+* 30 Jun 2013
+  - Added an example of Surface Code X and Z checks to the 
+    [Sympy Circuit Notebook](http://nbviewer.ipython.org/5843312). It's amazing how much less time
+    this takes than using QCircuit. Need to add some additional extra features today.
 * 29 Jun 2013
   - Updated [Sympy Circuit Notebook](http://nbviewer.ipython.org/5843312) and got a few more examples to work.
   - Reviewed priorities.
