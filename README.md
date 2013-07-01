@@ -15,6 +15,12 @@ IPython Notebooks
 
 Progress
 ========
+* 1 Jul 2013
+  - Einsum: Mind == Blown! Don't have good intuition for either np.einsum or np.tensordot, so I've decided
+    to write a tutorial for both, since they contain some nice tensor contractions that can seriously
+    speed a scientific calculation. 
+    [Know of any good tutorials for either](http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/)? 
+    Let me know, either by posting to the reddit thread or emailing rpmuller@gmail.com.
 * 30 Jun 2013
   - Added an example of Surface Code X and Z checks to the 
     [Sympy Circuit Notebook](http://nbviewer.ipython.org/5843312). It's amazing how much less time
