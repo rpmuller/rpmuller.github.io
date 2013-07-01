@@ -22,6 +22,8 @@ Progress
   - Trying to get a single basis function eval call to evaluate a whole mesh of points in pyquante2.
     Had to ask [this question to Stackoverflow](http://stackoverflow.com/questions/17391052/compute-square-distances-from-numpy-array)
     along the way.
+  - Added the mesh command, which evaluates a basis function on a mesh of points.
+  - Also improved the generation of lines in 3d in lineplot.
 * 29 Jun 2013
   - Updated [Sympy Circuit Notebook](http://nbviewer.ipython.org/5843312) and got a few more examples to work.
   - Reviewed priorities.
