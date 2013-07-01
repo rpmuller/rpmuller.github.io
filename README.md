@@ -9,6 +9,8 @@ Projects
 IPython Notebooks
 =================
 * Crash Course in Python for Scientists: Coming Soon!
+* Learning Quantum Chemistry with PyQuante: Coming Soon!
+* Tensor Operations in Numpy: Using tensordot and einsum: Coming Soon!
 * [PyQuante2 Overview](http://nbviewer.ipython.org/5745404)
 * [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312)
 * [SVG graphics in IPython notebooks](http://nbviewer.ipython.org/5666810)
