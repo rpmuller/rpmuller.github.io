@@ -4,25 +4,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Rick's Github Hackage by rpmuller</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/rpmuller">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1>Rick's Github Hackage</h1>
-        <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
 
-
-        <p class="view"><a href="https://github.com/rpmuller">View My GitHub Profile</a></p>
-
-      </header>
       <section>
+        <div id="title">
+          <h1>Rick's Github Hackage</h1>
+          <p>Open source projects I'm playing with. Generally Python quantum stuff.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/rpmuller">rpmuller</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
         <h1>
 <a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects</h1>
 
@@ -48,6 +60,12 @@
 <a name="progress" class="anchor" href="#progress"><span class="octicon octicon-link"></span></a>Progress</h1>
 
 <ul>
+<li>2 Jul 2013
+
+<ul>
+<li>Feature to mesh entire basis set not added and tested.</li>
+</ul>
+</li>
 <li>1 Jul 2013
 
 <ul>
@@ -56,7 +74,7 @@ to write a tutorial for both, since they contain some nice tensor contractions t
 speed a scientific calculation. 
 <a href="http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/">Know of any good tutorials for either</a>? 
 Let me know, either by posting to the reddit thread or emailing rpmuller@gmail.com.</li>
-<li>Major speed up to the integral code by using the bad-assedness of einsum.</li>
+<li>Major speed up to the pyquante2 integral code by using the bad-assedness of einsum.</li>
 </ul>
 </li>
 <li>30 Jun 2013
@@ -159,11 +177,9 @@ EDIT: proxy problems, of course.</li>
 <a href="http://scholar.google.com/citations?user=ihGf4wgAAAAJ&amp;hl=en">Citations on Google Scholar</a>.</li>
 </ul>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
