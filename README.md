@@ -19,6 +19,7 @@ Progress
 ========
 * 2 Jul 2013
   - Feature to mesh entire basis set not added and tested.
+  - Lineplot and Contourplot modules simplified.
 * 1 Jul 2013
   - Einsum: Mind == Blown! Don't have good intuition for either np.einsum or np.tensordot, so I've decided
     to write a tutorial for both, since they contain some nice tensor contractions that can seriously
