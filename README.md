@@ -8,7 +8,7 @@ Projects
 
 IPython Notebooks
 =================
-* Crash Course in Python for Scientists: Coming Soon!
+* [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
 * Learning Quantum Chemistry with PyQuante: Coming Soon!
 * Tensor Operations in Numpy: Using tensordot and einsum: Coming Soon!
 * [PyQuante2 Overview](http://nbviewer.ipython.org/5745404)
@@ -19,6 +19,7 @@ Progress
 ========
 * 3 Jul 2013
   - Work started on dft grids.
+  - Release of  [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)!
 * 2 Jul 2013
   - Feature to mesh entire basis set not added and tested.
   - Lineplot and Contourplot modules simplified.
