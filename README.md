@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 3 Jul 2013
+  - Work started on dft grids.
 * 2 Jul 2013
   - Feature to mesh entire basis set not added and tested.
   - Lineplot and Contourplot modules simplified.
