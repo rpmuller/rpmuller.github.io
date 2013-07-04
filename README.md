@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 4 Jul 2013
+  - More work on dft grids.
 * 3 Jul 2013
   - Work started on dft grids.
   - Release of  [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)!
