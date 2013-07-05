@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 5 Jul 2013
+  - Simplified arguments to mp2, and moved int transformation to integral module.
 * 4 Jul 2013
   - More work on dft grids.
 * 3 Jul 2013
