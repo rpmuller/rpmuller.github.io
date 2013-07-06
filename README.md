@@ -19,7 +19,7 @@ Progress
 ========
 * 6 Jul 2013
   - pyquante2 now has a rudimentary pyglet-based viewer
-  - ![DFT mesh for h2o](h2o-mesh.png)
+  - Advanced DFT meshes.
 * 5 Jul 2013
   - Simplified arguments to mp2, and moved int transformation to integral module.
 * 4 Jul 2013
