@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 6 Jul 2013
+  - pyquante2 now has a rudimentary pyglet-based viewer
 * 5 Jul 2013
   - Simplified arguments to mp2, and moved int transformation to integral module.
 * 4 Jul 2013
