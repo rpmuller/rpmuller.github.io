@@ -117,6 +117,7 @@ Progress
     from my missing a transpose. 
   - Prettified the pyquante2 plotting routines, and added to IPython notebook.
   - Got proper X, CNOT, and CPHASE gates to work in Sympy
+  - ![vtk orbital plotting](https://raw.github.com/rpmuller/rpmuller.github.io/master/h2-antibonding-pyquante2.png)
 
 Links
 =====
