@@ -19,11 +19,11 @@ Progress
 ========
 * 7 Jul 2013
   - Debugging radial meshes:
-  - 
+  - ![radial](https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png)
 * 6 Jul 2013
   - pyquante2 now has a rudimentary pyglet-based viewer
   - Advanced DFT meshes.
-  - ![Plotting of DFT Meshes](https://github.com/rpmuller/rpmuller.github.io/blob/master/h2o-mesh.png)
+  - ![Plotting of DFT Meshes](https://raw.github.com/rpmuller/rpmuller.github.io/master/h2o-mesh.png)
 * 5 Jul 2013
   - Simplified arguments to mp2, and moved int transformation to
     integral module. 
@@ -52,7 +52,9 @@ Progress
     [Sympy Circuit
     Notebook](http://nbviewer.ipython.org/5843312). It's amazing how
     much less time 
-    this takes than using QCircuit. Need to add some additional extra features today.
+    this takes than using QCircuit. Need to add some additional extra
+    features today.
+  - ![Z check](https://raw.github.com/rpmuller/rpmuller.github.io/master/zcheck.png)
   - Trying to get a single basis function eval call to evaluate a
   whole mesh of points in pyquante2. Had to ask [this question to Stackoverflow](http://stackoverflow.com/questions/17391052/compute-square-distances-from-numpy-array)
     along the way.
