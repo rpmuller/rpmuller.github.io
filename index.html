@@ -48,17 +48,26 @@
 <a name="progress" class="anchor" href="#progress"><span class="octicon octicon-link"></span></a>Progress</h1>
 
 <ul>
+<li>7 Jul 2013
+
+<ul>
+<li>Debugging radial meshes:</li>
+<li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png" alt="radial"></li>
+</ul>
+</li>
 <li>6 Jul 2013
 
 <ul>
 <li>pyquante2 now has a rudimentary pyglet-based viewer</li>
 <li>Advanced DFT meshes.</li>
+<li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/h2o-mesh.png" alt="Plotting of DFT Meshes"></li>
 </ul>
 </li>
 <li>5 Jul 2013
 
 <ul>
-<li>Simplified arguments to mp2, and moved int transformation to integral module.</li>
+<li>Simplified arguments to mp2, and moved int transformation to
+integral module. </li>
 </ul>
 </li>
 <li>4 Jul 2013
@@ -71,7 +80,8 @@
 
 <ul>
 <li>Work started on dft grids.</li>
-<li>Release of  <a href="http://nbviewer.ipython.org/5920182">Crash Course in Python for Scientists</a>!</li>
+<li>Release of  <a href="http://nbviewer.ipython.org/5920182">Crash Course in Python for
+Scientists</a>! </li>
 </ul>
 </li>
 <li>2 Jul 2013
@@ -85,34 +95,43 @@
 <li>1 Jul 2013
 
 <ul>
-<li>Einsum: Mind == Blown! Don't have good intuition for either np.einsum or np.tensordot, so I've decided
-to write a tutorial for both, since they contain some nice tensor contractions that can seriously
-speed a scientific calculation. 
+<li>Einsum: Mind == Blown! Don't have good intuition for either
+np.einsum or np.tensordot, so I've decided  to write a tutorial
+for both, since they contain some nice tensor contractions that
+can seriously  speed a scientific calculation. 
 <a href="http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/">Know of any good tutorials for either</a>? 
-Let me know, either by posting to the reddit thread or emailing rpmuller@gmail.com.</li>
-<li>Major speed up to the pyquante2 integral code by using the bad-assedness of einsum.</li>
+Let me know, either by posting to the reddit thread or emailing
+rpmuller@gmail.com. </li>
+<li>Major speed up to the pyquante2 integral code by using the
+bad-assedness of einsum. </li>
 </ul>
 </li>
 <li>30 Jun 2013
 
 <ul>
 <li>Added an example of Surface Code X and Z checks to the 
-<a href="http://nbviewer.ipython.org/5843312">Sympy Circuit Notebook</a>. It's amazing how much less time
-this takes than using QCircuit. Need to add some additional extra features today.</li>
-<li>Trying to get a single basis function eval call to evaluate a whole mesh of points in pyquante2.
-Had to ask <a href="http://stackoverflow.com/questions/17391052/compute-square-distances-from-numpy-array">this question to Stackoverflow</a>
+<a href="http://nbviewer.ipython.org/5843312">Sympy Circuit
+Notebook</a>. It's amazing how
+much less time 
+this takes than using QCircuit. Need to add some additional extra
+features today.</li>
+<li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/zcheck.png" alt="Z check"></li>
+<li>Trying to get a single basis function eval call to evaluate a
+whole mesh of points in pyquante2. Had to ask <a href="http://stackoverflow.com/questions/17391052/compute-square-distances-from-numpy-array">this question to Stackoverflow</a>
 along the way.</li>
-<li>Added the mesh command, which evaluates a basis function on a mesh of points.</li>
+<li>Added the mesh command, which evaluates a basis function on a mesh
+of points. </li>
 <li>Also improved the generation of lines in 3d in lineplot.</li>
 </ul>
 </li>
 <li>29 Jun 2013
 
 <ul>
-<li>Updated <a href="http://nbviewer.ipython.org/5843312">Sympy Circuit Notebook</a> and got a few 
-more examples to work. </li>
+<li>Updated <a href="http://nbviewer.ipython.org/5843312">Sympy Circuit Notebook</a> 
+and got a few more examples to work. </li>
 <li>Reviewed priorities.</li>
-<li>Fixed the mixed cgbf/pbgf bug for the 1e code. Still exists for 2e code.</li>
+<li>Fixed the mixed cgbf/pbgf bug for the 1e code. Still exists for 2e
+code. </li>
 </ul>
 </li>
 <li>28 Jun 2013
@@ -124,9 +143,10 @@ more examples to work. </li>
 <li>27 Jun 2013
 
 <ul>
-<li>Killed the stuff I did with RuntimeErrors in the iterators, and wrote a non-generator-based
-SCFIterator that properly exits, and can keep track of whether or not it is converged. Haven't
-wired this in to much of the code yet.<br>
+<li>Killed the stuff I did with RuntimeErrors in the iterators, and
+wrote a non-generator-based SCFIterator that properly exits, and
+can keep track of whether or not it is converged. Haven't wired
+this in to much of the code yet.<br>
 </li>
 <li>Making a little progress updating the pyqu bindings for Py27</li>
 </ul>
@@ -134,31 +154,35 @@ wired this in to much of the code yet.<br>
 <li>26 Jun 2013
 
 <ul>
-<li>Added RuntimeErrors to PyQuante2 iterators when maxiters reached. Am not doing anything to catch
-these at this point, but could do so later on.</li>
+<li>Added RuntimeErrors to PyQuante2 iterators when maxiters
+reached. Am not doing anything to catch these at this point, but
+could do so later on. </li>
 </ul>
 </li>
-<li>
-<p>25 Jun 2013</p>
+<li>25 Jun 2013
 
 <ul>
-<li>Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need to clean my scratch directories).
+<li>Poor man's scratcher: find . -size +100M -mtime +28 (yes, I need
+to clean my scratch directories). 
 Can also use with -exec rm {} \;</li>
-<li>Had trouble getting the nosetests to run quickly in pyquante2. Worked around this by doing a 
-setup.py build_ext --inplace to get the cython libraries in the appropriate places, after which
+<li>Had trouble getting the nosetests to run quickly in
+pyquante2. Worked around this by doing a<br>
+setup.py build_ext --inplace to get the cython libraries in the
+appropriate places, after which 
 the nosetest went from taking 74 sec to run to taking &lt; 2 sec!</li>
 <li>Also moved test_cython into the tests directory, since now nose can run these tests.</li>
 </ul>
 </li>
-<li>
-<p>24 Jun 2013</p>
+<li>24 Jun 2013
 
 <ul>
-<li>Profiling of unit tests in PyQuante2: Weird results. Looks as if the python versions of the integral routines
-are being called when running tests through nose, but the cython version are called when running from the
-command line.</li>
-<li>Spent a little bit of time doing some more with the sympy circuit plotter. Updated the notebook. 
-Can now do arbitrarily labelled 1Q gates, as well as controlled versions of these. Block multi-Q
+<li>Profiling of unit tests in PyQuante2: Weird results. Looks as if the python 
+versions of the integral routines are being called when running
+tests through nose, but the cython version are called when running
+from the command line.</li>
+<li>Spent a little bit of time doing some more with the sympy circuit
+plotter. Updated the notebook. Can now do arbitrarily labelled 1Q
+gates, as well as controlled versions of these. Block multi-Q 
 gates don't work, nor do gates with matrices as their labels.</li>
 </ul>
 </li>
@@ -166,12 +190,16 @@ gates don't work, nor do gates with matrices as their labels.</li>
 <p>23 Jun 2013</p>
 
 <ul>
-<li>libquantum wrappers: Extending python with C is very frustrating. Can't seem to get anything but segfaults! 
-Cython makes things much nicer, but I'm having trouble getting it to recognize _Complex</li>
-<li>When MacPorts won't download files for you, you can manually download them and stick them in 
-[Macports root]/var/macports/distfiles. But why does MacPorts fail to fetch so often? 
-EDIT: proxy problems, of course.</li>
-<li>Sticking this here since I forget it so often. To change the default (python or whatever) version in macports, do</li>
+<li>libquantum wrappers: Extending python with C is very
+frustrating. Can't seem to get anything but segfaults!<br>
+Cython makes things much nicer, but I'm having trouble getting it
+to recognize _Complex </li>
+<li>When MacPorts won't download files for you, you can manually
+download them and stick them in [Macports root]/var/macports/distfiles. 
+But why does MacPorts fail to fetch
+so often?  EDIT: proxy problems, of course.</li>
+<li>Sticking this here since I forget it so often. To change the
+default (python or whatever) version in macports, do </li>
 </ul>
 <p>port select --list python</p>
 </li>
@@ -179,7 +207,8 @@ EDIT: proxy problems, of course.</li>
 <p>22 Jun 2013</p>
 
 <ul>
-<li>Fixed pyquante2 orbital symmetry bug, which wasn't a bug but arose from my missing a transpose.</li>
+<li>Fixed pyquante2 orbital symmetry bug, which wasn't a bug but arose
+from my missing a transpose. </li>
 <li>Prettified the pyquante2 plotting routines, and added to IPython notebook.</li>
 <li>Got proper X, CNOT, and CPHASE gates to work in Sympy</li>
 </ul>
