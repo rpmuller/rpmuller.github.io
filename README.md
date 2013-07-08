@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 8 Jul 2013
+  - Minor cleaning and updating.
 * 7 Jul 2013
   - Debugging radial meshes:
   - ![radial](https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png)
