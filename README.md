@@ -19,6 +19,7 @@ Progress
 ========
 * 8 Jul 2013
   - Minor cleaning and updating.
+  - Started to work on DFT functionals and (more importantly) a test suite for DFT functionals
 * 7 Jul 2013
   - Debugging radial meshes:
   - ![radial](https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png)
