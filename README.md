@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 9 Jul 2013
+  - Testing lda functionals.
 * 8 Jul 2013
   - Minor cleaning and updating.
   - Started to work on DFT functionals and (more importantly) a test suite for DFT functionals
