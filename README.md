@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 10 Jul 2013
+  - Testing b88 functional.
 * 9 Jul 2013
   - Testing lda functionals.
 * 8 Jul 2013
