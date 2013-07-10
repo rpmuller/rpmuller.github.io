@@ -18,7 +18,8 @@ IPython Notebooks
 Progress
 ========
 * 10 Jul 2013
-  - Testing b88 functional.
+  - Testing vwn5 and b88 functionals.
+  - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
 * 9 Jul 2013
   - Testing lda functionals.
 * 8 Jul 2013
