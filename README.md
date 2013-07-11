@@ -21,6 +21,7 @@ Progress
   - Testing vwn5 and b88 functionals.
   - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
     Positively stupid wire labelling implemented.
+  - Labelled wires now work in sympy.
 * 9 Jul 2013
   - Testing lda functionals.
 * 8 Jul 2013
