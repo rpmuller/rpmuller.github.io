@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 11 Jul 2013
+  - Pull request sent for first batch of sympy qcircuit changes.
 * 10 Jul 2013
   - Testing vwn5 and b88 functionals.
   - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
