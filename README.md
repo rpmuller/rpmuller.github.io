@@ -18,6 +18,7 @@ IPython Notebooks
 Progress
 ========
 * 11 Jul 2013
+  - Further edits and simplifications to the sympy qcircuit branch.
   - Pull request sent for first batch of sympy qcircuit changes.
 * 10 Jul 2013
   - Testing vwn5 and b88 functionals.
