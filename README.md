@@ -24,6 +24,7 @@ Progress
   - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
     Positively stupid wire labelling implemented.
   - Labelled wires now work in sympy.
+  - ![Labeled wires](https://github.com/rpmuller/rpmuller.github.io/raw/master/qft-labelled.png)
 * 9 Jul 2013
   - Testing lda functionals.
 * 8 Jul 2013
