@@ -20,6 +20,7 @@ Progress
 * 11 Jul 2013
   - Further edits and simplifications to the sympy qcircuit branch.
   - Pull request sent for first batch of sympy qcircuit changes.
+  - Tested (and verified) that b88 functional works.
 * 10 Jul 2013
   - Testing vwn5 and b88 functionals.
   - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
