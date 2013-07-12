@@ -17,6 +17,11 @@ IPython Notebooks
 
 Progress
 ========
+* 12 Jul 2013
+  - Added unit tests to sympy circuitplot
+  - Attempted to get a array version of the b88 functional working. The failures with this may make me
+    give up altogether with array versions of these functionals. I guess I should verify that all the 
+    functionals work first, and then worry about making their evaluation faster.
 * 11 Jul 2013
   - Further edits and simplifications to the sympy qcircuit branch.
   - Pull request sent for first batch of sympy qcircuit changes.
