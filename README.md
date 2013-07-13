@@ -23,7 +23,7 @@ Progress
   - Travis now also regularly builds/tests pyquante2
   - pyquante2 test suite now runs without matplotlib or pyglet installed.
   - You can now do this Steane check with only 7 lines of code:
-  - ![steane check]()
+  - ![steane check](https://raw.github.com/rpmuller/rpmuller.github.io/master/steane.png)
 * 12 Jul 2013
   - Added unit tests to sympy circuitplot
   - Attempted to get a array version of the b88 functional working. The failures with this may make me
