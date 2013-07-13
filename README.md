@@ -18,7 +18,7 @@ IPython Notebooks
 Progress
 ========
 * 13 Jul 2013
-  - Trying to get Travis to accept my code.
+  - Trying to get Travis to accept my code. **Later** [appears to be working now](https://travis-ci.org/sympy/sympy/builds/9038252).
 * 12 Jul 2013
   - Added unit tests to sympy circuitplot
   - Attempted to get a array version of the b88 functional working. The failures with this may make me
