@@ -19,6 +19,7 @@ Progress
 ========
 * 14 Jul 2013
   - First set of qcircuit hacks merged into master!
+  - Outlined thoughts on [implementing measurement](https://github.com/rpmuller/rpmuller.github.io/blob/master/MeasurementThoughts.md) in sympy circuitplot.
 * 13 Jul 2013
   - Trying to get Travis to accept my sympy changes for quantum circuits.
     Travis [appears to be working now](https://travis-ci.org/sympy/sympy/builds/9038252).
