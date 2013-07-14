@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 14 Jul 2013
+  - First set of qcircuit hacks merged into master!
 * 13 Jul 2013
   - Trying to get Travis to accept my sympy changes for quantum circuits.
     Travis [appears to be working now](https://travis-ci.org/sympy/sympy/builds/9038252).
