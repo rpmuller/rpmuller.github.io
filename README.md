@@ -17,6 +17,9 @@ IPython Notebooks
 
 Progress
 ========
+* 15 Jul 2013
+  - qcircuit_measurement created to hack measurements into circuit plotting
+  - Initial set of hacks done: horizontal wires now doubled.
 * 14 Jul 2013
   - First set of qcircuit hacks merged into master!
   - Outlined thoughts on [implementing measurement](https://github.com/rpmuller/rpmuller.github.io/blob/master/MeasurementThoughts.md) in sympy circuitplot.
