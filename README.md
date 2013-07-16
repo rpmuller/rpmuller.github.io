@@ -20,6 +20,7 @@ Progress
 * 16 Jul 2013
   - [Pull request submitted](https://github.com/sympy/sympy/pull/2294) for second set of changes to sympy
     circuit plotting.
+  - pyquante2 xpbe tests pass.
 * 15 Jul 2013
   - qcircuit_measurement branch created to hack measurements into 
     circuit plotting.
