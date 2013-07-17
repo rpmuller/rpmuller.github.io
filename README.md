@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 17 Jul 2013
+  - Trying to support SVWN, PBE, BLYP functionals. Tests for all exchange functionals work. Tests for all correlation functionals fail. :-(
 * 16 Jul 2013
   - [Pull request submitted](https://github.com/sympy/sympy/pull/2294) for second set of changes to sympy
     circuit plotting.
