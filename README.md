@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 18 Jul 2013
+  - Created a new sympy branch off of master to handle qasm parsing.
 * 17 Jul 2013
   - Trying to support SVWN, PBE, BLYP functionals. Tests for all exchange functionals work. Tests for all correlation functionals fail. :-(
 * 16 Jul 2013
