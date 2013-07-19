@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 19 Jul 2013
+  - Trying to debug VWN. Not having much luck.
 * 18 Jul 2013
   - Created a new sympy branch off of master to handle qasm parsing.
 * 17 Jul 2013
