@@ -87,7 +87,7 @@ Progress
     np.einsum or np.tensordot, so I've decided  to write a tutorial
     for both, since they contain some nice tensor contractions that
     can seriously  speed a scientific calculation. 
-    [Know of any good tutorials for either](http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/)? 
+    [Know of any good tutorials for either?](http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/)? 
     Let me know, either by posting to the reddit thread or emailing
     rpmuller@gmail.com. 
   - Major speed up to the pyquante2 integral code by using the
