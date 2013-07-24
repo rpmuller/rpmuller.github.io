@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 24 Jul 2013
+  - Trying to get the sympy qasm parser to deal with 'def' statements.
 * 23 Jul 2013
   - Still working on VWN. Moved test code into an ipython notebook and also compared to the PW Correlation
 * 19 Jul 2013
