@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 23 Jul 2013
+  - Still working on VWN. Moved test code into an ipython notebook and also compared to the PW Correlation
 * 19 Jul 2013
   - Trying to debug VWN. Not having much luck.
 * 18 Jul 2013
