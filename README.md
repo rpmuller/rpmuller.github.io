@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 25 Jul 2013
+  - Again trying to merge the faux measurements into Sympy.
 * 24 Jul 2013
   - Trying to get the sympy qasm parser to deal with 'def' statements.
 * 23 Jul 2013
