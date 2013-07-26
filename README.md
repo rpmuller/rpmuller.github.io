@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 26 Jul 2013
+  - Faux measurements merged.
 * 25 Jul 2013
   - Again trying to merge the faux measurements into Sympy.
 * 24 Jul 2013
