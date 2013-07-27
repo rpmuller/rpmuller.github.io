@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 27 Jul 2013
+  - [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312) updated to include qasm parsing examples.
 * 26 Jul 2013
   - Faux measurements merged.
 * 25 Jul 2013
