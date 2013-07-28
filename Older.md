@@ -1,5 +1,61 @@
 Older Progress
 ==============
+## July 2013
+* 12 Jul 2013
+  - Added unit tests to sympy circuitplot
+  - Attempted to get a array version of the b88 functional working. The failures with this may make me
+    give up altogether with array versions of these functionals. I guess I should verify that all the 
+    functionals work first, and then worry about making their evaluation faster.
+* 11 Jul 2013
+  - Further edits and simplifications to the sympy qcircuit branch.
+  - [Pull request sent](https://github.com/sympy/sympy/pull/2270) for first 
+    batch of sympy qcircuit changes.
+  - Tested (and verified) that b88 functional works.
+* 10 Jul 2013
+  - Testing vwn5 and b88 functionals.
+  - Touched the sympy circuit printing just so I wouldn't go too long without working on it.
+    Positively stupid wire labelling implemented.
+  - Labelled wires now work in sympy.
+  - ![Labeled wires](https://github.com/rpmuller/rpmuller.github.io/raw/master/qft-labelled.png)
+* 9 Jul 2013
+  - Testing lda functionals.
+* 8 Jul 2013
+  - Minor cleaning and updating.
+  - Started to work on DFT functionals and (more importantly) a test suite for DFT functionals
+* 7 Jul 2013
+  - Debugging radial meshes:
+  - ![radial](https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png)
+* 6 Jul 2013
+  - pyquante2 now has a rudimentary pyglet-based viewer
+  - Advanced DFT meshes.
+  - ![Plotting of DFT Meshes](https://raw.github.com/rpmuller/rpmuller.github.io/master/h2o-mesh.png)
+* 5 Jul 2013
+  - Simplified arguments to mp2, and moved int transformation to
+    integral module. 
+* 4 Jul 2013
+  - More work on dft grids.
+* 3 Jul 2013
+  - Work started on dft grids.
+  - Release of  [Crash Course in Python for
+    Scientists](http://nbviewer.ipython.org/5920182)! 
+* 2 Jul 2013
+  - Feature to mesh entire basis set not added and tested.
+  - Lineplot and Contourplot modules simplified.
+  - MP2 now works.
+* 1 Jul 2013
+  - Einsum: Mind == Blown! Don't have good intuition for either
+    np.einsum or np.tensordot, so I've decided  to write a tutorial
+    for both, since they contain some nice tensor contractions that
+    can seriously  speed a scientific calculation. 
+    [Know of any good tutorials for either?](http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/)? 
+    Let me know, either by posting to the reddit thread or emailing
+    rpmuller@gmail.com. 
+  - Major speed up to the pyquante2 integral code by using the
+    bad-assedness of einsum. 
+
+
+
+## June 2013
 * 30 Jun 2013
   - Added an example of Surface Code X and Z checks to the 
     [Sympy Circuit
