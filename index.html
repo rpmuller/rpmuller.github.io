@@ -1,29 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Rick's Hackage by rpmuller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <title>Rick's Hackage by rpmuller</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+    <header>
+      <div class="inner">
         <h1>Rick's Hackage</h1>
-        <p>Open source projects I'm playing with. Generally Python &amp; Quantum stuff.</p>
+        <h2>Open source projects I'm playing with. Generally Python &amp; Quantum stuff.</h2>
+        <a href="https://github.com/rpmuller" class="button"><small>Follow me on</small>GitHub</a>
+      </div>
+    </header>
 
-
-        <p class="view"><a href="https://github.com/rpmuller">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h1>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
 <a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects</h1>
 
 <ul>
@@ -48,6 +53,13 @@
 <a name="progress" class="anchor" href="#progress"><span class="octicon octicon-link"></span></a>Progress</h1>
 
 <ul>
+<li>27 Jul 2013
+
+<ul>
+<li>
+<a href="http://nbviewer.ipython.org/5843312">Sympy Quantum Circuit Plotting</a> updated to include qasm parsing examples.</li>
+</ul>
+</li>
 <li>26 Jul 2013
 
 <ul>
@@ -125,106 +137,6 @@ Travis <a href="https://travis-ci.org/sympy/sympy/builds/9038252">appears to be 
 <li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/steane.png" alt="steane check"></li>
 </ul>
 </li>
-<li>12 Jul 2013
-
-<ul>
-<li>Added unit tests to sympy circuitplot</li>
-<li>Attempted to get a array version of the b88 functional working. The failures with this may make me
-give up altogether with array versions of these functionals. I guess I should verify that all the 
-functionals work first, and then worry about making their evaluation faster.</li>
-</ul>
-</li>
-<li>11 Jul 2013
-
-<ul>
-<li>Further edits and simplifications to the sympy qcircuit branch.</li>
-<li>
-<a href="https://github.com/sympy/sympy/pull/2270">Pull request sent</a> for first 
-batch of sympy qcircuit changes.</li>
-<li>Tested (and verified) that b88 functional works.</li>
-</ul>
-</li>
-<li>10 Jul 2013
-
-<ul>
-<li>Testing vwn5 and b88 functionals.</li>
-<li>Touched the sympy circuit printing just so I wouldn't go too long without working on it.
-Positively stupid wire labelling implemented.</li>
-<li>Labelled wires now work in sympy.</li>
-<li><img src="https://github.com/rpmuller/rpmuller.github.io/raw/master/qft-labelled.png" alt="Labeled wires"></li>
-</ul>
-</li>
-<li>9 Jul 2013
-
-<ul>
-<li>Testing lda functionals.</li>
-</ul>
-</li>
-<li>8 Jul 2013
-
-<ul>
-<li>Minor cleaning and updating.</li>
-<li>Started to work on DFT functionals and (more importantly) a test suite for DFT functionals</li>
-</ul>
-</li>
-<li>7 Jul 2013
-
-<ul>
-<li>Debugging radial meshes:</li>
-<li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/radial-meshses.png" alt="radial"></li>
-</ul>
-</li>
-<li>6 Jul 2013
-
-<ul>
-<li>pyquante2 now has a rudimentary pyglet-based viewer</li>
-<li>Advanced DFT meshes.</li>
-<li><img src="https://raw.github.com/rpmuller/rpmuller.github.io/master/h2o-mesh.png" alt="Plotting of DFT Meshes"></li>
-</ul>
-</li>
-<li>5 Jul 2013
-
-<ul>
-<li>Simplified arguments to mp2, and moved int transformation to
-integral module. </li>
-</ul>
-</li>
-<li>4 Jul 2013
-
-<ul>
-<li>More work on dft grids.</li>
-</ul>
-</li>
-<li>3 Jul 2013
-
-<ul>
-<li>Work started on dft grids.</li>
-<li>Release of  <a href="http://nbviewer.ipython.org/5920182">Crash Course in Python for
-Scientists</a>! </li>
-</ul>
-</li>
-<li>2 Jul 2013
-
-<ul>
-<li>Feature to mesh entire basis set not added and tested.</li>
-<li>Lineplot and Contourplot modules simplified.</li>
-<li>MP2 now works.</li>
-</ul>
-</li>
-<li>1 Jul 2013
-
-<ul>
-<li>Einsum: Mind == Blown! Don't have good intuition for either
-np.einsum or np.tensordot, so I've decided  to write a tutorial
-for both, since they contain some nice tensor contractions that
-can seriously  speed a scientific calculation. 
-<a href="http://www.reddit.com/r/Python/comments/1hf4i6/good_documentation_for_tensordot_and_einsum/">Know of any good tutorials for either?</a>? 
-Let me know, either by posting to the reddit thread or emailing
-rpmuller@gmail.com. </li>
-<li>Major speed up to the pyquante2 integral code by using the
-bad-assedness of einsum. </li>
-</ul>
-</li>
 </ul><p><a href="https://github.com/rpmuller/rpmuller.github.io/blob/master/Older.md">Older Progress</a></p>
 
 <h1>
@@ -236,12 +148,16 @@ bad-assedness of einsum. </li>
 <li>
 <a href="http://scholar.google.com/citations?user=ihGf4wgAAAAJ&amp;hl=en">Citations on Google Scholar</a>.</li>
 </ul>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        </section>
+
+        <aside id="sidebar">
+
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+  
   </body>
 </html>
