@@ -17,6 +17,8 @@ IPython Notebooks
 
 Progress
 ========
+* 28 Jul 2013
+  - Simplified the QASM parser and started to think about how to implement the def command.
 * 27 Jul 2013
   - [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312) updated to include qasm parsing examples.
 * 26 Jul 2013
