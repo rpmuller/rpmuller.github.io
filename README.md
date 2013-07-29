@@ -2,18 +2,15 @@ Projects
 ========
 * [PyQuante](http://pyquante.sf.net)/[PyQuante2](https://github.com/rpmuller/pyquante2)
 * [Sympy for Quantum Circuits](https://github.com/rpmuller/sympy/tree/sympy_qcircuit/sympy/physics/quantum)
-* Python bindings for Libxc
-* Python bindings for Libint
-* Python2.7 bindings for Libquantum
 
 IPython Notebooks
 =================
 * [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
-* Learning Quantum Chemistry with PyQuante: Coming Soon!
-* Tensor Operations in Numpy: Using tensordot and einsum: Coming Soon!
 * [PyQuante2 Overview](http://nbviewer.ipython.org/5745404)
 * [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312)
 * [SVG graphics in IPython notebooks](http://nbviewer.ipython.org/5666810)
+* Learning Quantum Chemistry with PyQuante: Coming Soon!
+* Tensor Operations in Numpy: Using tensordot and einsum: Someday/Maybe
 
 Progress
 ========
