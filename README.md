@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 30 Jul 2013
+  - Working on DFT iterators in pyquante2.
 * 29 Jul 2013
   - Further development of the class-based Qasm parser.  
     [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312) has an example 
