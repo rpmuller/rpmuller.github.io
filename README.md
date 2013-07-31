@@ -16,6 +16,7 @@ Progress
 ========
 * 31 Jul 2013
   - Very simple def statements work in sympy qcircuit qasm parser.
+  - All pyquante2 classes are now "new style".
 * 30 Jul 2013
   - Working on DFT iterators in pyquante2.
 * 29 Jul 2013
