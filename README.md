@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 1 Aug 2013
+  - Qasm now properly parses quoted gate symbols in def statements
 * 31 Jul 2013
   - Very simple def statements work in sympy qcircuit qasm parser.
   - All pyquante2 classes are now "new style".
