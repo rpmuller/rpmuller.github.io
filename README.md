@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 2 Aug 2013
+  - Rebased Sympy qasm_parser branch against master.
 * 1 Aug 2013
   - Qasm now properly parses quoted gate symbols in def statements.
   - Qasm now also parses controlled gate def statements.
