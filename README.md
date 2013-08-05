@@ -14,6 +14,10 @@ IPython Notebooks
 
 Progress
 ========
+* 5 Aug 2013
+  - Working on a better division between the scf iterators and Hamiltonians. Want to be able to mix and match more,
+    so that I can combine any iterator with any Hamiltonian. Probably not possible, but any movement in this
+    direction would be good.
 * 4 Aug 2013
   - The pyquante2 test suite now runs under python 2.7 and python 3.3!
 * 3 Aug 2013
