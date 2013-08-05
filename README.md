@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 4 Aug 2013
+  - Attempting to support py3 in pyquante2.
 * 3 Aug 2013
   - Updated to py3 style print statements in qasm module.
 * 2 Aug 2013
