@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 6 Aug 2013
+  - Added a two-electron Hylleraas code to pyquante2/hylleraas/helios.py
 * 5 Aug 2013
   - Working on a better division between the scf iterators and Hamiltonians. Want to be able to mix and match more,
     so that I can combine any iterator with any Hamiltonian. Probably not possible, but any movement in this
