@@ -14,6 +14,9 @@ IPython Notebooks
 
 Progress
 ========
+* 8 Aug 2013
+  - Got the labelled/initialized gates to work.
+  - Initiated pull request for the Qasm parser.
 * 7 Aug 2013
   - Tried to handle QASM commands like "qubit q0,0", failed
 * 6 Aug 2013
