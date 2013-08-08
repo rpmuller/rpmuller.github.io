@@ -15,7 +15,7 @@ IPython Notebooks
 Progress
 ========
 * 7 Aug 2013
-  - Tried to handle QASM commands like "qubit q0,0"
+  - Tried to handle QASM commands like "qubit q0,0", failed
 * 6 Aug 2013
   - Added a two-electron Hylleraas code to pyquante2/hylleraas/helios.py
 * 5 Aug 2013
