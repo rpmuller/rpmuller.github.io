@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 9 Aug 2013
+  - Added tests for Qasm parser
 * 8 Aug 2013
   - Got the labelled/initialized gates to work.
   - Initiated pull request for the Qasm parser.
