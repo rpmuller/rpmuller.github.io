@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 11 Aug 2013
+  - More tests for qasm parser
 * 9 Aug 2013
   - Added tests for Qasm parser
 * 8 Aug 2013
