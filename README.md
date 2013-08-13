@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 13 Aug 2013
+  - Fixing end-of-line whitespace
 * 11 Aug 2013
   - More tests for qasm parser
 * 9 Aug 2013
