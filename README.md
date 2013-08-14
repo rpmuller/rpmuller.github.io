@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 14 Aug 2013
+  - Qasm parser was merged into sympy master
 * 13 Aug 2013
   - Fixing end-of-line whitespace
 * 11 Aug 2013
