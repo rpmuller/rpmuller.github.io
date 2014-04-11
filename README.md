@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 10 Apr 2014
+  - Added a preliminary zmatrix utility to PyQuante
 * 14 Aug 2013
   - Qasm parser was merged into sympy master
 * 13 Aug 2013
