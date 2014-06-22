@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 21 Jun 2014
+  - Very trivial PyQuante function now works in Julia
 * 10 Apr 2014
   - Added a preliminary zmatrix utility to PyQuante
 * 14 Aug 2013
