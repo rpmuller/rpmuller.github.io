@@ -14,10 +14,16 @@ IPython Notebooks
 
 Progress
 ========
+* 3 Apr 2015
+  - ROHF works in pyquante2
+* 30 Mar 2015
+  - LDA works in pyquante2
+* 22 Mar 2015
+  - MayaVi display of DFT density and molecules added to pyquante2
 * 21 Jun 2014
   - Very trivial PyQuante function now works in Julia
 * 10 Apr 2014
-  - Added a preliminary zmatrix utility to PyQuante
+  - Added a preliminary zmatrix utility to pyquante2
 * 14 Aug 2013
   - Qasm parser was merged into sympy master
 * 13 Aug 2013
