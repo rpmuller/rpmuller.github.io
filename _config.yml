@@ -1,0 +1,8 @@
+title: Rick's Hackage
+description: Open source projects I'm playing with. Generally Python & Quantum stuff.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
