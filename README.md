@@ -14,6 +14,9 @@ IPython Notebooks
 
 Progress
 ========
+* 3 Mar 2017
+  - Updating documentation for the sympy quantum circuit tools
+  - Has it really been 2 years?!
 * 3 Apr 2015
   - ROHF works in pyquante2
 * 30 Mar 2015
