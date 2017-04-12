@@ -14,6 +14,8 @@ IPython Notebooks
 
 Progress
 ========
+* 12 Apr 2017
+  - There is a pyquante2.0_pure branch that is pure python, for those without a compiler.
 * 21 Mar 2017
   - Updating documentation for the sympy quantum circuit tools
   - Has it really been 2 years?!
