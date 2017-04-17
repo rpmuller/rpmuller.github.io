@@ -1,13 +1,13 @@
 Projects
 ========
 * [PyQuante](http://pyquante.sf.net)/[PyQuante2](https://github.com/rpmuller/pyquante2)
-* [Sympy for Quantum Circuits](https://github.com/rpmuller/sympy/tree/sympy_qcircuit/sympy/physics/quantum)
-
+* [Matplotlib/sympy quantum circuit plotting](https://github.com/rpmuller/PlotQCircuit/blob/master/PlotQCircuit.ipynb)
 IPython Notebooks
 =================
 * [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
 * [PyQuante2 Overview](http://nbviewer.ipython.org/5745404)
 * [Sympy Quantum Circuit Plotting](http://nbviewer.ipython.org/5843312)
+* [Matplotlib Quantum Circuit Plotting](https://github.com/rpmuller/PlotQCircuit/blob/master/PlotQCircuit.ipynb)
 * [SVG graphics in IPython notebooks](http://nbviewer.ipython.org/5666810)
 * Learning Quantum Chemistry with PyQuante: Coming Soon!
 * Tensor Operations in Numpy: Using tensordot and einsum: Someday/Maybe 
