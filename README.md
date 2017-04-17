@@ -2,6 +2,7 @@ Projects
 ========
 * [PyQuante](http://pyquante.sf.net)/[PyQuante2](https://github.com/rpmuller/pyquante2)
 * [Matplotlib/sympy quantum circuit plotting](https://github.com/rpmuller/PlotQCircuit/blob/master/PlotQCircuit.ipynb)
+
 IPython Notebooks
 =================
 * [Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
