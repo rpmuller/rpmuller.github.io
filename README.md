@@ -14,6 +14,11 @@ IPython Notebooks
 
 Progress
 ========
+* 17 Apr 2017
+  - The pure python branch of pyquante2 is now called "pure".
+  - There are pyquante2_pure conda builds for all platforms on https://anaconda.org/rpmuller/pyquante2_pure.
+  - There are compiled pyquante2 conda builds for linux/mac on https://anaconda.org/rpmuller/pyquante2
+  - Conda rocks! 
 * 12 Apr 2017
   - There is a pyquante2.0_pure branch that is pure python, for those without a compiler.
 * 3 Mar 2017
