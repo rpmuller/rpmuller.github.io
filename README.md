@@ -15,6 +15,8 @@ IPython Notebooks
 
 Progress
 ========
+* 20 Apr 2017
+  - Avogadro for linux is now out on [my anaconda channel](http://anaconda.org/rpmuller).
 * 17 Apr 2017
   - The pure python branch of pyquante2 is now called "pure".
   - There are pyquante2_pure conda builds for all platforms on https://anaconda.org/rpmuller/pyquante2_pure.
