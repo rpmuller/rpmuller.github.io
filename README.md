@@ -15,6 +15,8 @@ IPython Notebooks
 
 Progress
 ========
+* 2 Jun 2017
+  - There is a new module scf/mcscf that contains GVB. GVB itself doesn't work (yet), but the general ROHF does using ROTION/OCBSE.
 * 20 Apr 2017
   - Avogadro for linux is now out on [my anaconda channel](http://anaconda.org/rpmuller).
   - Also openmpi-2.1.0
