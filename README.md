@@ -15,6 +15,8 @@ IPython Notebooks
 
 Progress
 ========
+* 27 Jun 2017
+  - GVB works for H2.
 * 2 Jun 2017
   - There is a new module [scf/mcscf](https://github.com/rpmuller/pyquante2/blob/master/pyquante2/scf/mcscf.py) that contains GVB. GVB itself doesn't work (yet), but the general ROHF does using ROTION/OCBSE.
   - A good reference for these methods is [Bobrowicz and Goddard, 1977](http://www.wag.caltech.edu/publications/sup/pdf/108.pdf)
