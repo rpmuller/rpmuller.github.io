@@ -20,6 +20,8 @@ Progress
 * 2 Jun 2017
   - There is a new module [scf/mcscf](https://github.com/rpmuller/pyquante2/blob/master/pyquante2/scf/mcscf.py) that contains GVB. GVB itself doesn't work (yet), but the general ROHF does using ROTION/OCBSE.
   - A good reference for these methods is [Bobrowicz and Goddard, 1977](http://www.wag.caltech.edu/publications/sup/pdf/108.pdf)
+* 5 May 2017
+  - The [Matplotlib Quantum Circuit Plotting](https://github.com/rpmuller/PlotQCircuit/blob/master/PlotQCircuit.ipynb) notebook has a very lightweight toolset for plotting quantum circuits with Python/Matplotlib that also works with Jupyter notebooks.
 * 20 Apr 2017
   - Avogadro for linux is now out on [my anaconda channel](http://anaconda.org/rpmuller).
   - Also openmpi-2.1.0
