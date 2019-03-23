@@ -15,6 +15,8 @@ IPython Notebooks
 
 Progress
 ========
+* 23 Mar 2019
+  - Wow, has it really been almost 2 years? I switched to a management job. Fixed some bugs involved in making sure the cython routines work with py 3.7. Had to rebuild the bindings. Also pushing a mac version of pyquante2-2.0-py3.7 to the conda.org cloud.
 * 27 Jun 2017
   - GVB works for H2.
 * 2 Jun 2017
